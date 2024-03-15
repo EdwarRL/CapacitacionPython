@@ -2,8 +2,8 @@ import requests, zipfile, io, os, shutil
 import time, os, pytz
 import datetime
         
-course_id = 'especializacion-analitica-monografia'
-github_repo = 'Astorress/%s'%course_id
+course_id = 'CapacitacionPython'
+github_repo = 'EdwarRL/%s'%course_id
 zip_file_url= 'https://github.com/%s/archive/main.zip'%github_repo
 
 def get_last_modif_date(localdir):
